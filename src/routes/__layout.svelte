@@ -23,9 +23,7 @@
 <div class="relative">
   <Nav />
 
-  <main
-    class="flex relative flex-col justify-center items-center min-h-screen font-normal"
-  >
+  <main class="flex relative flex-col items-center min-h-screen font-normal">
     <slot />
     <!-- <PageTransition refresh={key}>
     </PageTransition> -->

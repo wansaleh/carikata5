@@ -15,7 +15,14 @@ const config = {
       fontFamily: {
         sans: ['Inter var', ...fontFamily.sans],
       },
-      colors: { brand, lightbg, darkbg },
+      colors: {
+        brand,
+        lightbg,
+        darkbg,
+        worldeGreen: '#67a561',
+        worldeYellow: '#c3ae55',
+        worldeGray: '#74787a',
+      },
     },
   },
 };
