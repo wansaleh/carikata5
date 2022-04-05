@@ -47,19 +47,29 @@
     }
 
     if (letter1) {
-      results = results.filter((word) => word[0] === letter1);
+      results = results.filter(
+        (word) => word[0].toLowerCase() === letter1.toLowerCase()
+      );
     }
     if (letter2) {
-      results = results.filter((word) => word[1] === letter2);
+      results = results.filter(
+        (word) => word[1].toLowerCase() === letter2.toLowerCase()
+      );
     }
     if (letter3) {
-      results = results.filter((word) => word[2] === letter3);
+      results = results.filter(
+        (word) => word[2].toLowerCase() === letter3.toLowerCase()
+      );
     }
     if (letter4) {
-      results = results.filter((word) => word[3] === letter4);
+      results = results.filter(
+        (word) => word[3].toLowerCase() === letter4.toLowerCase()
+      );
     }
     if (letter5) {
-      results = results.filter((word) => word[4] === letter5);
+      results = results.filter(
+        (word) => word[4].toLowerCase() === letter5.toLowerCase()
+      );
     }
   }
 </script>
