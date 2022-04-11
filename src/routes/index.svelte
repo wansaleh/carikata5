@@ -84,7 +84,7 @@
 
 <div class="layout text-center my-24">
   <h1 class="lg:text-5xl relative text-4xl font-semibold tracking-tight">
-    <span>Katapat Helper (Game 5 huruf)</span>
+    <span>Katapat Helper</span>
   </h1>
 
   <h2 class="block text-3xl font-light mt-2">
