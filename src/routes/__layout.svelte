@@ -3,7 +3,7 @@
 
   import Seo from '$lib/components/seo.svelte';
   import Footer from '$lib/components/footer.svelte';
-  import Nav from '$lib/components/nav.svelte';
+  // import Nav from '$lib/components/nav.svelte';
 
   import '../app.css';
   import '../nprogress.css';
@@ -21,12 +21,10 @@
 <Seo />
 
 <div class="relative">
-  <Nav />
+  <!-- <Nav /> -->
 
   <main class="flex relative flex-col items-center min-h-screen font-normal">
     <slot />
-    <!-- <PageTransition refresh={key}>
-    </PageTransition> -->
 
     <Footer />
   </main>

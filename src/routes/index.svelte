@@ -13,6 +13,14 @@
   let letter4 = '';
   let letter5 = '';
 
+  $: good = good.toUpperCase();
+  $: bad = bad.toUpperCase();
+  $: letter1 = letter1.toUpperCase();
+  $: letter2 = letter2.toUpperCase();
+  $: letter3 = letter3.toUpperCase();
+  $: letter4 = letter4.toUpperCase();
+  $: letter5 = letter5.toUpperCase();
+
   let results = malayWords;
 
   function search() {
@@ -76,7 +84,7 @@
 
 <div class="layout text-center my-24">
   <h1 class="lg:text-5xl relative text-4xl font-semibold tracking-tight">
-    <span>Pembantu Katapat (Game 5 huruf)</span>
+    <span>Katapat Helper (Game 5 huruf)</span>
   </h1>
 
   <h2 class="block text-3xl font-light mt-2">
