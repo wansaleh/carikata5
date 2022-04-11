@@ -27,11 +27,11 @@
     results = malayWords;
 
     if (good) {
-      const goodLtrs = good.split('').map((ltr) => ltr.toLowerCase());
+      const goodLtrs = good.split('');
       results = results.filter((word) => {
         let out = true;
         goodLtrs.forEach((ltr) => {
-          if (!word.includes(ltr)) {
+          if (!word.toLowerCase().includes(ltr.toLowerCase())) {
             out = out && false;
           }
         });
@@ -41,11 +41,11 @@
     }
 
     if (bad) {
-      const badLtrs = bad.split('').map((ltr) => ltr.toLowerCase());
+      const badLtrs = bad.split('');
       results = results.filter((word) => {
         let out = true;
         badLtrs.forEach((ltr) => {
-          if (word.includes(ltr)) {
+          if (word.toLowerCase().includes(ltr.toLowerCase())) {
             out = out && false;
           }
         });
